@@ -1,0 +1,163 @@
+Risky Portfolio Shares in a Buffer Stock Model.
+Consider a consumer who ordinarily behaves according to the tractable buffer stock
+model discussed in class. At the end of period t, after the consumption decision has
+been made, this consumer is offered a one-time-only, never-to-be-repeated opportunity
+to invest in a risky asset. The returns on the asset will be revealed at the beginning of
+period t + 1, and thereafter the consumer will behave again according to the optimal
+solution to the buffer stock model.
+The risky asset’s return factor Rt+1 will take one of two values:
+
+
+(
+Rφ
+℘ = (1 − ℘)
+with probability 
+R̄ = 1−℘
+(1)
+Rt+1 =
+R=0
+with probability ℘
+where φ > 1 is the ‘risky return premium’ that compensates the consumer for the fact
+that the asset is riskier than the safe asset which earns return factor R.
+Call the share that the consumer invests in the risky asset ςt . Thus, the consumer
+arrives in period t + 1 with bank balances of
+b′t+1 =
+=
+=
+=
+
+at (ςt Rt+1 + (1 − ςt )R)
+at (R + ςt (Rt+1 − R))
+at R (1 + ςt (Rt+1 /R − 1))
+bt+1 (1 + ςt ϕt+1 )
+
+(2)
+(3)
+(4)
+(5)
+
+where bt+1 = Rat is the amount of bank balances the consumer would have had in the
+absence of any investment in the risky asset, and ϕt+1 ≡ (Rt+1 /R − 1) is called the
+‘excess return’ on the risky asset.
+So, the excess return takes on two possible values:
+(
+ϕ̄ ≡ R̄
+℘−1 with probability 
+℘ = (1 − ℘)
+(6)
+ϕt+1 =
+ϕ ≡ −1
+with probability ℘
+which correspondingly imply two possible realizations of b′t+1 :
+(
+b̄t+1 ≡ bt+1 (1 + ςt ϕ̄) with probability 
+℘ = (1 − ℘)
+b′t+1 =
+bt+1 ≡ bt+1 (1 − ςt )
+with probability ℘
+
+(7)
+
+1. Explain why the consumer’s problem is solved by
+
+
+max ℘ vu (bt+1 )0 + ve (bt+1 + 1)0 + 
+℘ vu (b̄t+1 )0 + ve (b̄t+1 + 1)0
+
+(8)
+
+ςt
+
+Answer:
+The consumer’s goal is to
+max Γ1−ρ Et [v(mt+1 )]
+ςt
+
+(9)
+
+but since Γ is a constant this is equivalent to
+max Et [v(mt+1 )]
+ςt
+
+(10)
+
+and (8) simply writes out explicitly the elements of that expected value,
+equal to the probability-weighted outcomes that the consumer will experience in each of the four possible conditions: Risky asset bust, unemployed; risky asset bust, employed; risky asset boom, unemployed; risky
+asset boom, employed.
+2. Explain why the first order condition for this problem can be rewritten as
+Et [ϕt+1 u′ (c(mt+1 ))] = 0
+
+(11)
+
+Answer:
+The FOC of
+max Et [v(at (R + (Rt+1 − R)ςt ) + yt+1 )]
+
+(12)
+
+Et [v′ (mt+1 )(Rt+1 − R)at ] = 0
+
+(13)
+
+ςt
+
+is
+
+but since at is predetermined at the time that ςt is chosen, and since
+u′ (ct+1 ) = v′ (mt+1 ), (13) is equivalent to (11) (dividing by R).
+3. Explain why (11) implies that this consumer will never choose to invest ςt = 1 in
+the risky asset.
+Answer:
+If the consumer were to invest all his wealth in the risky asset and it
+returned Rt+1 = 0, and the consumer also became unemployed in that
+same period, his mt+1 would be zero forcing consumption to be zero and
+so his marginal utility would be infinity and so the expectation in (11)
+could not be satisfied for any ℘ and 0 both > 0.
+4. Now define mt+1 = bt+1 + yt+1 as the value that mt+1 would take in the absence of
+the opportunity to invest in the risky asset, so that m̀t+1 = mt+1 + bt+1 ϕt+1 ςt and
+explain how the consumption function can be approximated by
+c(m̀t+1 ) ≈ c(mt+1 ) + c′ (mt+1 )bt+1 ϕt+1 ςt
+
+2
+
+(14)
+
+Answer:
+(14) is a first order Taylor expansion of c(m̀t+1 ) around ςt = 0 using the
+definition of (5).
+5. Use the approximation (14) to explain why the consumer will not choose ςt = 0
+by showing that at ςt = 0 a small increase in the risky share of the portfolio would
+increase expected utility. (Hint: Use (14) in (11)). Explain the intuition behind
+this result. (Hint: If none of the portfolio is invested in the risky asset, what is
+the covariance between u′ (ct+1 ) and ϕt+1 ?)
+Answer:
+Et [ϕt+1 (u′ (c(mt+1 )) + u′′ (c(mt+1 ))c′ (mt+1 )bt+1 ϕt+1 ςt )] ≈ 0
+Following up on the hint, if none of the portfolio is invested in the
+risky asset, then the covariance between the risky asset’s returns and
+consumption must be zero, because the second term in (5) is zero. But
+then for at > 0, since Et [ϕt+1 ] > 0 and Et [u′ (c(mt+1 ))] > 0 and the
+covariance is zero, it must be the case that the expectation on the LHS
+of is a strictly positive number.
+Recall the logic of the C-CAPM model: any asset whose covariance
+with consumption is zero, and which earns a positive expected return
+premium, must be marginally preferable to the riskless asset. So the
+consumer will want to increase his share in the risky asset from zero to
+some positive amount.
+6. Using the intuition developed by the foregoing, explain why it is plausible to
+suppose that an increase in the magnitude of the unemployment risk might reduce
+the extent to which the consumer would be willing to invest in the risky asset.
+Answer:
+The consumer’s problem balances the appeal of the excess return from
+in the risky asset (which is irresistible for a consumer who has nothing
+invested in it) against the fear of the consequences of investing too
+much in the risky asset and experiencing the calamity of a simultaneous
+unemployment event and stock market collapse. If the likelihood of the
+unemployment calamity increases, it is plausible that the fear of the
+simultaneous calamity will become more powerful. Hence, an increase
+in unemployment risk can reduce the consumer’s willingness to invest in
+the risky asset.
+
+References
+
+3
+

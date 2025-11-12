@@ -1,0 +1,35 @@
+Asset Pricing In A Financial Crisis.
+In August 2007 global financial markets underwent a period of turmoil triggered by
+a reassessment of the market for U.S. subprime mortgage debt securities. Inspired by
+these events, this question requires you to consider several possible interpretations of
+asset price movements, using the Lucas (1978)/C-CAPM model (Hint: The Gordon model
+of asset pricing is useful but can also be misleading because it neglects general equilibrium
+effects).
+The Lucas economy has two risky assets, which we will call ‘subprime debt’ (S) and
+‘other risky assets’ (O). The distinction between S and O is that S is subject to larger
+shocks than O and therefore, for any given quantity of holdings of the two securities, the
+covariance between consumption and movements in S will be greater. (Both covariances
+are positive because in a Lucas economy all production is consumed).
+Leading up to period t the two assets were priced according to a belief that the
+variance of the payoff from a unit holding (a share) of S was x > 1 times the size
+of the variance of the payoff from a share of O. Using the Lucas model, describe the
+patterns you would expect to observe at time t in response to each of the following three
+possible scenarios. (Assume that, aside from the change described, nothing else about
+the economy changes). For each case, describe what happens to the level of the two
+prices PS and PO and to the two price/dividend ratios PS /DS and PO /DO (you can
+assume that the subprime market is small relative to the size of the other market).
+1. There is a one-time, permanent drop in the level of dividends per share of S to half
+the original level. The expected future relative variance of dividends per share for
+S is unchanged (around this new lower level) in the future.
+2. The variance of dividends associated with holding a share of S will be permanently
+higher, but the mean expected level of dividends remains unchanged.
+3. There is an increase in the level of ‘risk aversion’ (the coefficient of relative risk
+aversion of the representative agent) in the market. (You can assume that there is
+a riskless asset in the market as well).
+
+References
+Lucas, Robert E. (1978): “Asset Prices in an Exchange Economy,” Econometrica, 46,
+1429–1445, Available at http://www.jstor.org/stable/1913837.
+
+2
+

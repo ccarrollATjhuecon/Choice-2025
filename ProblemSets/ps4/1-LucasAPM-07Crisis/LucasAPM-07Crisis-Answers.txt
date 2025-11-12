@@ -1,0 +1,85 @@
+Asset Pricing In A Financial Crisis.
+In August 2007 global financial markets underwent a period of turmoil triggered by
+a reassessment of the market for U.S. subprime mortgage debt securities. Inspired by
+these events, this question requires you to consider several possible interpretations of
+asset price movements, using the Lucas (1978)/C-CAPM model (Hint: The Gordon model
+of asset pricing is useful but can also be misleading because it neglects general equilibrium
+effects).
+The Lucas economy has two risky assets, which we will call ‘subprime debt’ (S) and
+‘other risky assets’ (O). The distinction between S and O is that S is subject to larger
+shocks than O and therefore, for any given quantity of holdings of the two securities, the
+covariance between consumption and movements in S will be greater. (Both covariances
+are positive because in a Lucas economy all production is consumed).
+Leading up to period t the two assets were priced according to a belief that the
+variance of the payoff from a unit holding (a share) of S was x > 1 times the size
+of the variance of the payoff from a share of O. Using the Lucas model, describe the
+patterns you would expect to observe at time t in response to each of the following three
+possible scenarios. (Assume that, aside from the change described, nothing else about
+the economy changes). For each case, describe what happens to the level of the two
+prices PS and PO and to the two price/dividend ratios PS /DS and PO /DO (you can
+assume that the subprime market is small relative to the size of the other market).
+1. There is a one-time, permanent drop in the level of dividends per share of S to half
+the original level. The expected future relative variance of dividends per share for
+S is unchanged (around this new lower level) in the future.
+Answer:
+The benchmark Gordon asset pricing model with risk-neutral investors
+says that the price of a security is equal to the present discounted value
+of the dividends you receive from owning it. We have cut dividends in
+half, so if risk did not matter we would expect to cut the price in half
+leaving the dividend/price ratio unchanged.
+The Lucas asset pricing model says that asset prices will depend, in
+addition, on the covariance of asset prices with consumption. However,
+the question does not indicate that this covariance has changed, and
+explicitly says to assume that all factors other than those explicitly
+mentioned have remained unchanged. Thus, to a first approximation,
+the answer in the Lucas model would be the same as in the benchmark
+Gordon model: Prices fall by half but the price/dividend ratio is unchanged.
+Nothing in this scenario changes either the level or the variability of
+future dividends received as a consequence of holding O, so neither the
+price/dividend ratio nor the level of prices of O should change. (A
+subtle technicality is that this relies on the assumption that the subprime
+market is ‘small’ so that the decline in consumption variability from this
+
+source has no effect on the covariance of consumption with dividends on
+O).
+2. The variance of dividends associated with holding a share of S will be permanently
+higher, but the mean expected level of dividends remains unchanged.
+Answer:
+If the variance of returns on S goes up, then the covariance of those
+returns with consumption should go up, since the marginal propensity
+to consume out of wealth is positive.
+The key insight of the Lucas model is that the prices of securities that
+covary more with consumption will be relatively lower (and their expected returns consequently higher), because those securities offer less
+insurance against consumption risk. Therefore, the price of the subprime
+securities should fall, both in absolute terms and relative to dividends.
+However, the increase in the variance of returns for S has no implications
+for the variance of returns on O so there is not much reason to expect a
+big change in the price of O.
+3. There is an increase in the level of ‘risk aversion’ (the coefficient of relative risk
+aversion of the representative agent) in the market. (You can assume that there is
+a riskless asset in the market as well).
+Answer:
+An increase in ρ would affect both securities’ prices, assuming investors
+have access to a riskless asset as well, since greater risk aversion will
+make investors want to withdraw money from all riskless assets in order
+to concentrate assets in the riskless form. This can be seen from the
+formula for the expected excess return on a security,
+E[Rt+1,i ] − R ≈ ρ cov(∆ log Ct+1 , Rt+1,i )
+
+(1)
+
+Even if the covariance remains unchanged, a higher ρ means that a risky
+security will need to earn a higher return to make investors willing to
+hold it.
+Furthermore, the price of the subprime security will probably fall more,
+since the covariance of its returns with consumption was assumed to be
+larger.
+
+2
+
+References
+Lucas, Robert E. (1978): “Asset Prices in an Exchange Economy,” Econometrica, 46,
+1429–1445, Available at http://www.jstor.org/stable/1913837.
+
+3
+
