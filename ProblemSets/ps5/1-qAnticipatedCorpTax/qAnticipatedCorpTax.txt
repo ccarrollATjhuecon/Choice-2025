@@ -1,0 +1,48 @@
+Dynamics of Investment in Response to a Temporary τ ↑ in the q Model.
+Answer the following questions using an Abel (1981)-Hayashi (1982) q model of
+investment.
+You are expected to answer the questions not just quantitatively (e.g., with figures or
+numbers) but also conceptually. That is, you must explain, in intuitive terms, why the
+variables do what they do.
+1. Leading up to date t, the economy is in steady state. At date t, the government
+unexpectedly introduces a permanent increase in the corporate tax rate, τ ↑. Show
+the effects on a phase diagram and show dynamics of investment, capital, share
+prices, and q following the tax change. In particular explain what, if anything,
+happens to λ, the share price of the firm, when the τ is implemented.
+2. Leading up to date t, the economy is in steady state. At date t, the government
+unexpectedly introduces a temporary increase in the corporate tax rate, τ ↑. The
+high τ will last for two years, and then the τ will revert back to its normal
+level. Show the effects on a phase diagram and show dynamics of investment,
+capital, share prices, and q, and the capital stock under two scenarios: (1) costs
+of adjustment for the capital stock, ω, are high; (2) costs of adjustment are low.
+EXPLAIN your results.
+3. Leading up to date t, the economy is in steady state, and a τ of 20 percent
+has existed since the beginning of time. At date t, the government unexpectedly
+announces that in three years (that is, in year t + 3), there will be a permanent
+decrease in the corporate tax rate, τ ↓ τ . Show and explain the effects on a phase
+diagram and show dynamics of investment, capital, share prices, and q, and the
+capital stock under two scenarios: (1) costs of adjustment for the capital stock, ω,
+are high; (2) costs of adjustment are low. EXPLAIN your results.
+4. Do your results have any implications for whether, when lawmakers introduce a
+bill to increase the corporate tax rate, they will want to make it ‘retroactive’ (that
+is, if the τ change ever passes, it would apply to profits made during the period
+between the introduction of the bill and its passage into law). Is this the same as
+or different from the implications for the ITC?
+5. How would your results to the previous question change if corporations had some
+accounting tricks they could use, at a smoothly convex increasing cost, to shift
+“reported” profits between calendar years? (By smoothly conves increasing costs,
+we mean costs like those for investment in the q model; that is, the marginal
+cost to move a negligible amount ϵ of reported taxes between t and t + 1, is
+tiny (proportional to ϵ2 ). (You do not need to make diagrams or do quantitative
+analysis for this question; intuition is enough).
+
+References
+Abel, Andrew B. (1981): “A Dynamic Model of Investment and Capacity Utilization,”
+Quarterly Journal of Economics, 96(3), 379–403.
+Hayashi, Fumio (1982):
+“Tobin’s Marginal Q and Average Q: A Neoclassical Interpretation,” Econometrica, 50(1), 213–224, Available at
+http:
+//ideas.repec.org/p/nwu/cmsems/457.html.
+
+2
+
